@@ -52,6 +52,8 @@ Perform a sample search for "Who invented the telephone?" and print the top resu
 
 Files
 vector_database.py: The main script that contains all the logic for data loading, embedding, and searching.
+
 vector_database_test.py: A test script I used to query the db
+
 vector_database_resukts.py: A file showing the results of my query
 
