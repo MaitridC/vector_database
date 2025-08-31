@@ -54,9 +54,9 @@ Files
 
 1. vector_database.py: The main script that contains all the logic for data loading, embedding, and searching.
 
-2. vector_database_test.py: A test script I used to query the db
+2. vector_database_test.py: A test script to query the db
 
-3. vector_database_resukts.py: A file showing the results of my query
+3. vector_database_resukts.py: A file showing the results of my example query
 
 4. README.md: A guide on how to utilize this repo
 
