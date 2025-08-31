@@ -42,7 +42,7 @@ The code handles the setup automatically. When you run the first code cell, it w
 Usage
 To run the project, simply execute all the lines in the script.
 
-1. Run the entire notebook: Execute all the cells in the notebook from top to bottom.
+1. Run the entire script: Execute all the cells in the script from top to bottom.
 
 2. Observe the Output: The script will provide step-by-step updates on its progress, including data loading, embedding generation, and database population.
 
