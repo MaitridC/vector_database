@@ -14,7 +14,7 @@ query_embedding = model.encode([query_text]).tolist()
 print("Querying the database for similar documents...")
 results = collection.query(
     query_embeddings=query_embedding,
-    n_results=5
+    n_results=2
 )
 
 # Print the results
