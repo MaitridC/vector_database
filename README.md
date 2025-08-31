@@ -33,27 +33,30 @@ A Google Colab notebook or a Python environment with the required packages.
 Installation
 Open this script in your local or a notebook.
 
-The first cell of the script will automatically install all the required Python packages (datasets, sentence-transformers, chromadb).
+The code handles the setup automatically. When you run the first code cell, it will execute the following commands to install the necessary libraries:
+
+`!pip install datasets sentence-transformers chromadb`
+
+***************************************************************************************************************************************************************************************************************************************************************************************************
 
 Usage
-To run the project, simply execute all the cells in the notebook.
+To run the project, simply execute all the lines in the script.
 
-The script will:
+1. Run the entire notebook: Execute all the cells in the notebook from top to bottom.
 
-Load the SQuAD dataset.
+2. Observe the Output: The script will provide step-by-step updates on its progress, including data loading, embedding generation, and database population.
 
-Filter for unique documents.
+3. View Results: After the database is populated, the final cells will perform a semantic search and print the top 5 most relevant documents for the query, demonstrating the core functionality of your vector database.
 
-Load the embedding model.
-
-Generate embeddings and populate the ChromaDB vector database in batches.
-
-Perform a sample search for "Who invented the telephone?" and print the top results to the console.
+***************************************************************************************************************************************************************************************************************************************************************************************************
 
 Files
-vector_database.py: The main script that contains all the logic for data loading, embedding, and searching.
 
-vector_database_test.py: A test script I used to query the db
+1. vector_database.py: The main script that contains all the logic for data loading, embedding, and searching.
 
-vector_database_resukts.py: A file showing the results of my query
+2. vector_database_test.py: A test script I used to query the db
+
+3. vector_database_resukts.py: A file showing the results of my query
+
+4. README.md: A guide on how to utilize this repo
 
